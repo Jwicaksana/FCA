@@ -4,12 +4,15 @@ Code for Federated Classifier Anchoring.
 <br>
 Code structure is as follow:
 ---
- |--> code
+
+```bash
+ |--> FCA
  |--> datasets
    |-->ich
      |--> images
    |-->isic
      |-->isic2019_preprocessed
+```
 
 Regarding data preprocessing:
 1) ICH: data is split with the hyperparameters listed in the manuscript. Images are preprocessed and placed in images folder. 
